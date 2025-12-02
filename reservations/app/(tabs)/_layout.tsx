@@ -9,7 +9,7 @@ import { useColorScheme } from "@/hooks/use-color-scheme";
 
 function LogoutButton() {
   const handleLogout = () => {
-    router.replace('/auth/login');
+    router.replace('../auth/login');
   };
 
   return (
